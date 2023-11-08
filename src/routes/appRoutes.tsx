@@ -16,7 +16,8 @@ import ProminentWorkExperiences from "../pages/ProminentWorkEx";
 import HonoursAndAwards from "../pages/HonoursAwards";
 import Skills from "../pages/Skills";
 import ResearchPageLayout from "../pages/research/ResearchPageLayout";
-import CSDissertation from "../pages/research/CSDissertation";
+import MusicxAI from "../pages/research/MusicxAI";
+import AlgoMusic from "../pages/research/AlgoMusic";
 import OtherPursuits from "../pages/OtherPursuits";
 
 const appRoutes: RouteType[] = [
@@ -85,11 +86,19 @@ const appRoutes: RouteType[] = [
         state: "researchprojects.index"
       },
       {
-        path: "/researchprojects/csdissertation",
-        element: <CSDissertation />,
-        state: "researchprojects.csdissertation",
+        path: "/researchprojects/MusicxAI",
+        element: <MusicxAI />,
+        state: "researchprojects.MusicxAI",
         sidebarProps: {
-          displayText: "Computing Dissertation"
+          displayText: "Music Performance x AI"
+        },
+      },
+      {
+        path: "/researchprojects/AlgoMusic",
+        element: <AlgoMusic />,
+        state: "researchprojects.AlgoMusic",
+        sidebarProps: {
+          displayText: "Algorithmic Music"
         },
       }
     ]

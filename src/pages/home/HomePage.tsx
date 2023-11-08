@@ -12,7 +12,7 @@ const HomePage = (props: Props) => {
         project in algorithmic generative music. A life goal of mine includes pursuing a PhD in social computing or 
         human-technology interaction. As for my career aspirations, I hope to join a national laboratory in the future, and to conduct 
         research that can better the lives of others.</p>
-      <p><i>Last Updated: November 1, 2023</i></p>
+      <p><i>Last Updated: November 9, 2023</i></p>
     </div>
   );
 };
